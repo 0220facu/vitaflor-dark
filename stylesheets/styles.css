@@ -18,6 +18,11 @@ background: linear-gradient(0deg, rgba(46,148,0,1) 8%, rgba(153,204,0,1) 69%);
 border-radius:20px;
 border:0px;
 }
+.btn-main:hover{
+transition: 0.5s ;
+background: #2e2e5f;
+
+}
 .text-xl{
     font-size:42px
 }
@@ -33,6 +38,9 @@ border:0px;
 }
 .title-item{
     font-size:22px
+}
+.shadow{
+    text-shadow: 0px 0px 8px rgba(0,0,0,1) !important; 
 }
 .w-40{
     width:40%
@@ -208,7 +216,7 @@ footer .ml-5{
     left: 27%;
 }
 .info-title{
-    margin-left: 14%;
+ margin-left: 20%;
 }
 .info-title p{
     font-weight:400;
@@ -217,45 +225,67 @@ footer .ml-5{
     font-size: 34px !important;
 }
 .btn-sections{
-    color: #99CC00;
+    color: #99CC00 !important;
     border-radius:20px;
     border: 2px solid #99CC00;
     background-color: #424d4286
 }
+.btn-sections:hover{
+    color: white !important;
+    transition: 1s;
+}
 .btn-orange{
-    color: #FF6600;
+    text-align: center;
+    color: #FF6600 !important;
     border-radius:20px;
     border: 2px solid #FF6600;
     background-color: #424d4286 
 }
+.btn-orange:hover{
+    color: white !important;
+    transition: 1s;
+}
 .btn-pink{
-    color:  #FF0066;
+    text-align: center;
+    color:  #FF0066 !important;
     border-radius:20px;
     border: 2px solid  #FF0066;
     background-color: #424d4286 
 }
+.btn-pink:hover{
+    color: white !important;
+    transition: 1s;
+}
 .btn-purple{
-    color:  #9999FF;
+    text-align: center;
+    color:  #9999FF !important;
     border-radius:20px;
     border: 2px solid  #9999FF;
     background-color: #424d4286 
 }
+.btn-purple:hover{
+    color: white !important;
+    transition: 1s;
+}
 .btn-lightBlue{
-    color:  #00CCCC;
+    text-align: center;
+    color:  #00CCCC !important;
     border-radius:20px;
     border: 2px solid  #00CCCC;
     background-color: #424d4286 
 }
+.btn-lightBlue:hover{
+    color: white !important;
+    transition: 1s;
+}
 .info-title hr{
-    margin-left: 0px;
+    margin-left:0px;
     width:75%;
     height: 2px;
     background: rgb(153,204,0);
     background: linear-gradient(90deg, rgba(153,204,0,1) 27%, rgba(0,212,255,1) 100%);
 }
-.info-text{
-    margin-left: 22%;
-}
+
 .info-text strong{
     color:#99CC00 
 }
@@ -269,7 +299,7 @@ footer .ml-5{
     background-color: #000033;
     background-image:url("../img/home/Vector_2_Home.png");
     background-repeat: no-repeat;
-    height:600px;
+
     background-size: 200px;
     background-position-x:100%
 }
@@ -280,7 +310,7 @@ footer .ml-5{
 .background-products{
     background-image: url("../img/home/Vector_3_Home.png");
     background-repeat: no-repeat;
-    height:600px
+
 }
 .background-items h2{
     font-size:23px;
@@ -291,7 +321,7 @@ footer .ml-5{
 }
 .background-items p{
     margin-left: 18%;
-    font-size:10px;
+    font-size:16px;
     padding-right:30% !important
 }
 .background-items .btn-sections{
@@ -359,9 +389,7 @@ a:link, a:visited, a:active, a:hover{
 .btn:hover{
     color:#ffffff !important    ;
 }
-.newsletter{
-    
-}
+
 
 .topBar .flex-row-reverse {
     height:25px
